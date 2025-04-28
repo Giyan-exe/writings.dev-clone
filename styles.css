@@ -1,0 +1,627 @@
+body {
+    background-color: #232830;
+}
+
+header {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 50px;
+}
+
+nav {
+    color: white;
+    font-weight: 100;
+
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+}
+
+h5 {
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 30px;
+
+    margin-top: 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+
+    list-style: none;
+
+    height: 30px;
+}
+
+li {
+    padding: 0px 20px;
+
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 24px;
+    color: white;
+}
+
+.logo-trademark {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 304.45px;
+    height: 314.08px;
+
+    margin-bottom: -30px;
+    margin-top: -40px;
+}
+
+.trademark {
+    width: 1244px;
+    height: 320px;
+}
+
+hr {
+   border: 1px solid #4D4D4D;
+
+   opacity: 10%;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 60px;
+    margin-left: -70px;
+}
+
+.category {
+    color: #909090;
+
+    padding: 10px 20px;
+
+    font-style: italic;
+    font-family: Recursive;
+    font-weight: 400;
+    font-size: 27px;
+}
+
+.category:hover {
+    color:#FF7575;
+
+    padding-top: 7px;
+    border-top: 3px solid #FF7575;
+}
+
+.cube-container {
+    padding-top: 11px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: -35px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+
+    padding-right: 18px;
+    padding-left: 3px;
+    margin-left: 32px;
+
+    width: 24px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    gap: 2rem; 
+    padding: 2rem;
+    justify-content: center;
+  }
+  
+
+article {
+    height: 439px;
+    width: 390px;
+    background-color: white;
+
+    border-radius: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    margin-top: 28px;
+    margin-bottom: -5px;
+}
+
+h3, .description {
+    padding-left: 30px;
+    padding-right: 30px;
+
+    font-family: Poppins;
+}
+
+.date-author {
+    display: flex;
+    justify-content: space-between;
+
+    font-family: Poppins;
+
+    margin-bottom: -10px;
+    margin-left: -110px;
+}
+
+.date {
+    padding-right: 15px;
+
+    font-family: Poppins;
+}
+
+.dot {
+    vertical-align: middle;
+    margin: 15px 6px;
+
+    font-size: 18px;
+}
+
+.author {
+    padding-left: 15px;
+
+    font-family: Poppins;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-left: -50px;
+}
+
+.pagination ul {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination li {
+    color: #909090;
+    padding-top: 12px;
+
+    font-family: Recursive;
+    font-style: italic;
+}
+
+.pagination li:hover {
+    color:#FF7575;
+
+    border-top: 3px solid #FF7575;
+    padding-top: 9px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-bottom: 50px;
+}
+
+.credits {
+    margin-left: -60px;
+}
+
+.links {
+    margin-right: -56px;
+}
+
+.credits, .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.credits span {
+    display: flex;
+
+    align-items: center;
+}
+
+.company-name {
+    color: white;
+
+    font-size: 30px;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.company-author {
+    background-color: #4699E0;
+    color: white;
+
+    font-size: 19px;
+    font-family: "Source Sans 3", sans-serif;
+
+    height: 34px;
+
+    padding: 5px 10px 0px 10px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.links span {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color: #4699E0;
+
+    height: 38px;
+    
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 4px;
+}
+
+.links svg {
+    padding-right: 7px;
+}
+
+.links a {
+    color: white;
+    
+    text-decoration: none;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 19px;
+}
+
+@media (max-width: 1024px){
+    body {
+        overflow-x: hidden;
+    }
+
+    .logo {
+        height: 202px;
+        width: 202px;
+    }
+
+    .trademark {
+        height: 250px;
+        width: 1250px;
+
+        margin-bottom: -40px;
+    }
+
+    .menu {
+        margin-left: 20px;
+        margin-bottom: 40px;
+
+        width: 900px;
+    }
+
+    .category {
+        padding: 10px 5px;
+    
+        font-size: 20px;
+    }
+
+    .box-container {
+        margin-left: 27px;
+        padding-right: 15px;
+    }
+
+    .three-box {
+        height: 20px;
+        width: 20px;
+
+        margin-bottom: 5px;
+    }
+
+    .menu-icon {
+        height: 32px;
+        width: 31px;
+
+        margin-bottom: -12px;
+    }
+
+    section {
+        grid-template-columns: 400px 400px;
+    }
+
+    .pagination {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    
+    .pagination li {
+        font-size: 20px;
+     }
+}
+
+@media (max-width: 600px) {
+   body {
+        overflow-x: hidden;
+   }
+
+   
+   h5 {
+        margin-right: 0px;
+   
+
+        font-size: 24px;
+   }
+
+   ul {
+        margin-left: 50px;
+   }
+
+   li {
+        padding: 0px 5px;
+
+        font-size: 18px;
+   }
+
+   .trademark {
+        width: 600px;
+   }
+
+   hr {
+        width: 100%;
+   }
+
+   .menu {
+        width: 100%;
+        max-width: 100vw;
+   
+        overflow-x: auto;
+
+        white-space: nowrap;
+
+        margin-bottom: 20px;
+   }
+
+   .menu-list {
+        display: flex;
+
+        padding-left: 240px;
+        padding-right: 30px;
+
+        flex-wrap: nowrap;
+   }
+
+   .menu-list li {
+        flex-shrink: 0;
+   }
+
+
+   .three-box {
+        margin-bottom: 0px;
+
+        height: 18px;
+        width: 18px
+   }
+
+   .menu-icon {
+        height: 30px;
+        width: 22px;
+
+        margin-bottom: -17px;
+   }
+
+   section {
+        grid-template-columns: 400px;
+        margin-left: 0px;
+   }
+
+   .pagination {
+        margin-left: -50px;
+   }
+
+   .pagination li {
+        padding: 11px 10px;
+   }
+
+   footer {
+        margin-left: 10px;
+        margin-bottom: 30px;
+   }
+
+   .company-name {
+        font-size: 20px;
+   }
+
+   .company-author {
+        font-size: 16px;
+
+        height: 22px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        margin-left: 10px;
+   }
+
+   .links {
+        margin-left: -100px;
+   }
+
+   .links span {
+        width: 170px;
+   }
+
+   .links span {
+        height: 23px;
+    
+        padding: 3px 10px;
+}
+    .links a {
+        font-size: 16px;
+}
+}
+
+@media (max-width: 400px) {
+    header {
+        margin-left: 0px;
+
+        margin-top: 30px;
+        margin-bottom: -30px;
+    }
+
+    h5 {
+        font-size: 20px;
+
+        margin-left: 3px;
+    }
+
+    ul {
+        margin-left: -10px;
+    }
+
+    li {
+        font-size: 14px;
+
+        padding: 0px 5px;
+    }
+
+    .logo {
+        height: 180px;
+        width: 180px;
+    }
+
+    .trademark {
+       width: 450px;
+
+       margin-top: -40px;
+    }
+
+    .menu {
+        margin-bottom: 10px;
+    }
+
+    .menu-list {
+        padding-left: 410px;
+        padding-right: 30px;
+    }
+
+    .menu-list li {
+        font-size: 18px;
+    }
+
+    .three-box {
+        margin-bottom: 4px;
+    
+        height: 18px;
+        width: 18px
+    }
+    
+    .menu-icon {
+        height: 30px;
+        width: 22px;
+    
+        margin-bottom: -14.5px;
+    }
+
+    section {
+        margin-left: 100px;
+    }
+
+    article {
+        height: 390px;
+        width: 300px;
+    }
+    
+    article svg {
+        height: 120px;
+        width: 270px;
+
+        margin-top: 10px;
+    }
+
+    h3 {
+       font-size: 16px;
+
+       margin-top: 14px;
+    }
+    
+    .description {
+        font-size: 14px;
+
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    
+    .date-author {
+        margin-top: 5px;
+        margin-left: -40px;
+    }
+
+    .date {
+        font-size: 14px;
+    }
+    
+    .dot {
+        margin: 10px 6px;
+    
+        font-size: 18px;
+    }
+    
+    .author {
+        font-size: 14px;
+    }
+
+    .pagination {
+        margin-top: 0px;
+        margin-left: -15px;
+        margin-bottom: 20px;
+    }
+
+    .pagination li {
+        font-size: 16px;
+    }
+
+    footer {
+        margin-left: 10px;
+        margin-bottom: 30px;
+   }
+
+   .company-name {
+        font-size: 16px;
+   }
+
+   .company-author {
+        font-size: 12px;
+
+        height: 18px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        margin-left: 10px;
+   }
+
+   .links {
+        margin-left: -100px;
+   }
+
+   .links span {
+        width: 133px;
+   }
+
+   .links span {
+        height: 18px;
+    
+        padding: 3px 10px;
+}
+
+    .links svg {
+        height: 14px;
+        width: 18px;
+    }
+
+    .links a {
+        font-size: 12px;
+}
+}
